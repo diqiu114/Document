@@ -1,14 +1,25 @@
 # Keil系列教程12_map文件全面解析
 
-[TOC]
+
 
  发表于 2018-12-07 | 分类于 [Keil系列教程 ](https://www.strongerhuang.com/categories/Keil系列教程/)| *阅读次数:* 3051
-
-- **分享一个朋友的人工智能教程，零基础！通俗易懂！希望你也加入到人工智能的队伍中来！** [www.captainbed.net](http://www.captainbed.net/strongerhuang)
-
-- **本文作者：** [strongerHuang](https://www.strongerhuang.com/)
-- **本文链接：** http://www.strongerhuang.com/Keil/Keil系列教程12_map文件全面解析.html
-- **版权声明：** 本文遵循 [署名-非商业性使用-禁止演绎 4.0 国际](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh) 协议。禁止用于商业用途，转载请微信公众号联系作者授权！
+- [Keil系列教程12\_map文件全面解析](#keil系列教程12_map文件全面解析)
+- [一、写在前面](#一写在前面)
+- [二、关于Keil中的map文件](#二关于keil中的map文件)
+  - [2.1 如何打开map文件](#21-如何打开map文件)
+  - [2.2 map文件输出内容配置](#22-map文件输出内容配置)
+  - [2.3 map文件内容分类](#23-map文件内容分类)
+- [三、Section Cross References](#三section-cross-references)
+- [四、Removing Unused input sections from the image](#四removing-unused-input-sections-from-the-image)
+- [五、Image Symbol Table](#五image-symbol-table)
+  - [5.1 Symbol分为两大类](#51-symbol分为两大类)
+  - [5.2 Symbol内容要点](#52-symbol内容要点)
+- [六、Memory Map of the image](#六memory-map-of-the-image)
+  - [6.1 主要介绍](#61-主要介绍)
+  - [6.2 内容要点](#62-内容要点)
+- [七、Image component sizes](#七image-component-sizes)
+- [八、说明](#八说明)
+- [九、最后](#九最后)
 
 # 一、写在前面
 
@@ -209,7 +220,6 @@ RW：存储与RAM中的段
 
 **Image component sizes：**存储组成大小
 配置中需勾选：**Size Info**
-
 
 [![img](keil%20map%E6%96%87%E4%BB%B6%E5%85%A8%E9%9D%A2%E8%A7%A3%E6%9E%90.assets/8.Image%20component%20sizes.png)](https://github.com/strongerHuang/strongerHuang.github.io/blob/master/Keil/Keil系列教程12_map文件全面解析/8.Image component sizes.png?raw=true)
 
